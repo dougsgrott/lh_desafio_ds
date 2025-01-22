@@ -1,0 +1,74 @@
+# Ignore Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# Ignore data files
+data/raw/
+data/interim/
+data/processed/
+data/external/
+
+# Ignore large file types
+*.csv
+*.tsv
+*.parquet
+*.hdf5
+*.sqlite
+*.db
+*.log
+
+# Ignore temporary or intermediate files
+*.tmp
+*.temp
+*.bak
+*.swp
+*.swo
+
+# Ignore virtual environment folders
+env/
+venv/
+.venv/
+
+# Ignore Python cache files
+__pycache__/
+*.py[cod]
+
+# Ignore configuration files specific to IDEs and editors
+.vscode/
+.idea/
+*.iml
+
+# Ignore logs and outputs
+logs/
+*.log
+reports/figures/
+reports/tables/
+
+# Ignore dependency files generated automatically
+*.egg-info/
+dist/
+build/
+
+# Ignore model artifacts and binaries
+*.pkl
+*.joblib
+*.h5
+*.onnx
+*.pt
+*.model
+
+# Ignore archive files
+*.zip
+*.tar.gz
+*.rar
+*.7z
+
+# Ignore system files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Ignore environment and credentials files
+.env
+.env.*
+*.key
+*.pem
